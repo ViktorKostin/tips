@@ -34,20 +34,21 @@ sudo apt-get install openjdk-8-jdk
    cd /usr/local/android-studio/bin/
    sudo ./studio.sh
     ```
+4. Add android studio to launcher
+    ```
+    Android Studio -> Tools -> Create Desktop Entry
+    ```
+----
+### Tools for development
 
-#### Add android studio to launcher
-```
-Android Studio -> Tools -> Create Desktop Entry
-```
-
-#### Tools for development
+#### Global
 ```bash
 npm install -g react-native-cli
 npm install -g eslint
 sudo apt-get install watchman
 ```
 
-#### Tools for specific react-native app
+#### Local *(for specific react-native app)*
 ```bash
 npm install --save-dev @babel/core @babel/runtime
 npm install --save-dev metro-react-native-babel-preset
